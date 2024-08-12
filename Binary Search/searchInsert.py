@@ -9,6 +9,7 @@ You must write an algorithm with O(log n) runtime complexity.
 """
 from typing import List
 
+
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         return self._searchInsert(nums, target, 0, len(nums) - 1)
@@ -25,7 +26,6 @@ class Solution:
             return self._searchInsert(nums, target, left, mid - 1)
         else:
             return self._searchInsert(nums, target, mid + 1, right)
-
 
 
 if __name__ == "__main__":
