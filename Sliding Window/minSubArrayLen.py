@@ -25,8 +25,6 @@ class Solution:
         return min_length if min_length != float('inf') else 0
 
 
-
-
 if __name__ == "__main__":
     solution = Solution()
     assert solution.minSubArrayLen(7, [2, 3, 1, 2, 4, 3]) == 2
