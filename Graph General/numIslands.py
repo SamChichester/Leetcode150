@@ -38,7 +38,6 @@ class Solution:
         return num_islands
 
 
-
 if __name__ == "__main__":
     solution = Solution()
     assert solution.numIslands([
