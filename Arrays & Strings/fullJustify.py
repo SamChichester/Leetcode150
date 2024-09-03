@@ -42,6 +42,7 @@ class Solution:
         justified.append(' '.join(current).ljust(maxWidth))
         return justified
 
+
 if __name__ == "__main__":
     solution = Solution()
     assert solution.fullJustify(["This", "is", "an", "example", "of", "text", "justification."], 16) == [
